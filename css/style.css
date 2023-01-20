@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:500&display=swap');
+
+body {
+    background: #EFF1F3;
+}
+
+.navbar-brand img {
+    width: 35px;
+    height: 30px;
+    margin-top: -8px;
+}
+
+.bege-info-color {
+    background: rgba(0, 64, 133, 0.56);
+    ;
+}
+
+#navigationSection ul a {
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+button:focus {
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+#sliderSection {
+    background-image: url('../img/carousel-img-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.overlay {
+    background: rgba(0, 64, 133, 0.56);
+    min-height: 500px;
+}
+
+.banner h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3rem;
+}
+
+.banner h3 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.9rem;
+}
+
+#sliderSection .btn-prim {
+    color: #fff;
+    background: rgba(1, 80, 93);
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+#sliderSection .btn-prim:hover {
+    background: #fff;
+    color: #0A8AE6;
+}
+
+#projectSection i {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#projectSection .bg-overlay:hover i {
+    color: #fff;
+}
+
+.bg-overlay:hover h4 {
+    color: #fff;
+}
+
+.bg-overlay:hover {
+    background: #61A0CE;
+    color: #fff;
+    border-radius: 3px;
+    transition: .3s all ease;
+}
+
+.beforeAfter h2 {
+    position: relative;
+}
+
+.beforeAfter h2:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 110px;
+    background: #18D26E;
+    bottom: 0;
+    left: calc(49% - 46px);
+    display: block;
+}
+
+.beforeAfter h2:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 154px;
+    height: 1px;
+    background: #fa7a02;
+    bottom: 1px;
+    left: calc(49% - 69px);
+}
+
+
+#mySkill span {
+    font-size: 16px;
+}
+
+#mySkill .progress {
+    height: 1.3rem;
+    background: #dcdcdc;
+}
+
+.bg-html {
+    background-color: #E44D26 !important;
+}
+
+.html {
+    color: #E44D26 !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+.bg-css {
+    background-color: #42A5F5 !important;
+}
+
+.css {
+    color: #42A5F5 !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+.javascript {
+    color: #000 !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+.bg-bootstrap {
+    background-color: #563D7C !important;
+}
+
+.bootstrap {
+    color: #563D7C !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+.bg-jquery {
+    background-color: #5CE1E6 !important;
+}
+
+.jquery {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+#mySkill .progress {
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#mySkill .progress .skill {
+    font-family: "Open Sans", sans-serif;
+    line-height: 35px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+}
+
+#mySkill .progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+}
+
+#mySkill .progress-bar {
+    width: 1px;
+    text-align: left;
+    transition: .9s;
+}
+
+#projectChart h5 {
+    font-size: 50px;
+}
+
+#projectChart h6 {
+    font-size: 20px;
+}
+
+#projectChart i {
+    font-size: 60px;
+    margin-left: -30px;
+    color: rgba(248, 249, 250, 0.51) !important
+}
+
+#businessGlobal {
+    background-image: url("../img/carousel-img-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.overlayGlobal {
+    background: rgba(0, 64, 133, 0.56);
+    min-height: 600px;
+}
+
+#businessGlobal i,
+#projectSection i {
+    font-size: 46px;
+    color: #0A8AE6;
+}
+
+.newsDate p,
+.bGlobal p {
+    font-family: 'Work Sans';
+    font-size: 16px;
+}
+
+.card {
+    border: none;
+}
+.bgTestmonial{
+    background: rgba(0, 147, 255, 0.65);
+    color:#fff;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 42px;
+}
+
+.transformScale {
+    transition: .3s all ease;
+}
+
+.transformScale:hover {
+    transform: translateY(-10px);
+}
+
+#ourTeam img {
+    width: 200px;
+    width: 200px;
+}
+
+#ourTeam i {
+    color: #000;
+    padding-top: 12px;
+}
+
+.bgSize {
+    width: 40px;
+    height: 40px;
+    background: #EFF1F3;
+}
+
+#ourTeam .card p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+.newsLink h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+.newsButton {
+    font-family: 'Work Sans';
+    font-size: 16px;
+}
+
+#latestNews img {
+    transition: .3s all;
+}
+
+#latestNews img:hover {
+    transform: scale(1.1);
+    box-sizing: border-box;
+}
+
+#letsTalk {
+    background: #61A0CE;
+    color: #fff;
+}
+
+.contactSocialIcon i {
+    color: #fff;
+    padding: 12px 14px;
+    width: 40px;
+    height: 40px;
+    transition: .3s all;
+}
+
+.contactSocialIcon a:hover {
+    text-decoration: none;
+}
+
+.contactSocialIcon a:hover i {
+    transform: scale(1.2)
+}
+
+#sologonSection h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+
+.cardBg {
+    background: #eff1f3;
+    border-radius: 4px;
+}
+
+.cardBg i {
+    font-size: 24px;
+    padding: 10px;
+}
+
+#footerSection .footerLogo img {
+    width: 50px;
+    height: 50px;
+    margin-top: -8px;
+}
+
+#footerSection h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+#footerSection h4 {
+    position: relative;
+}
+
+#footerSection h4:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 90px;
+    background: #18D26E;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+#footerSection h4:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 125px;
+    background: #fa7a02;
+    bottom: 1px;
+    left: 0;
+    display: block;
+}
+
+
+@media (max-width:991px) {
+    #footerSection h3 {
+        font-size: 26px;
+    }
+
+    #footerSection .footerLogo img {
+        width: 30px;
+        height: 30px;
+        margin-top: -8px;
+    }
+}
